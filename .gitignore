@@ -2,3 +2,12 @@
 open hand/.venv/
 __pycache__/
 *.pyc
+
+# Local credentials, model/agent state and disposable workspace
+.env
+.env.*
+!.env.example
+.openhands/
+workspace/
+logs/
+*.log
